@@ -1,0 +1,104 @@
+body {
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .form {
+    margin-left: 156px;
+    margin-top: 36px;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .form label {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+  }
+  
+  .form input[type="number"] {
+    width: 360px;
+    height: 40px;
+    box-sizing: border-box;
+    border: 1px solid #808080;
+    border-radius: 4px;
+    padding: 0 10px;
+    font-size: 14px;
+    outline: none;
+  }
+  
+
+  fieldset {
+    max-width: 360px;
+    border: 1px solid #808080;
+    border-radius: 4px;
+    padding: 12px 16px;
+  }
+  
+  legend {
+    font-size: 16px;
+    color: #2e2f42;
+  }
+  
+  .radio-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+    gap: 48px;
+  }
+  
+  .radio-group label {
+    display: flex;
+  flex-direction: row; 
+  align-items: center; 
+  gap: 8px;            
+  font-size: 16px;
+  color: #2e2f42;        
+  }
+  
+  input[type="radio"] {
+    appearance: auto;          
+    margin: 0;                 
+    vertical-align: middle;    
+  }
+  
+  legend {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+  }
+  
+
+  
+  /* ===== Кнопка ===== */
+  button[type="submit"] {
+    width: 360px;
+    height: 40px;
+    background-color: #4E75FF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 8px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #345DEE;
+  }
+  
